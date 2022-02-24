@@ -6,11 +6,11 @@ lazy val root = (project in file("."))
   .settings(
     name := "CSV2Avro",
     libraryDependencies ++= Seq(
-      "com.typesafe"       % "config"       % "1.4.1",
+      "com.typesafe"       % "config"       % "1.4.2",
       "org.apache.commons" % "commons-csv"  % "1.9.0",
       "org.apache.avro"    % "avro"         % "1.11.0",
-      "org.slf4j"          % "slf4j-api"    % "1.7.35",
-      "org.slf4j"          % "slf4j-simple" % "1.7.35"
+      "org.slf4j"          % "slf4j-api"    % "1.7.36",
+      "org.slf4j"          % "slf4j-simple" % "1.7.36"
     ),
     assembly / assemblyMergeStrategy := {
       case m if m.toLowerCase.endsWith("manifest.mf")       => MergeStrategy.discard
