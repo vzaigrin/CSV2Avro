@@ -5,3 +5,7 @@
 Распознаёт типы Int, Long и Double в файле CSV.
 
 Сохраняет схему в файл .avsc
+
+## Пример
+- cd example
+- java -Dconfig.file=application.conf -jar CSV2Avro-assembly-1.0.jar 
