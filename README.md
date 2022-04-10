@@ -8,4 +8,4 @@
 
 ## Пример
 - cd example
-- java -Dconfig.file=application.conf -jar CSV2Avro-assembly-1.0.jar 
+- java -Dconfig.file=application.conf -jar ../target/scala-2.13/CSV2Avro-assembly-1.0.jar
